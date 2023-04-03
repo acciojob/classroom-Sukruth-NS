@@ -10,7 +10,7 @@ public class StudentService {
 
     @Autowired
     StudentRepository studentRepository;
-//    StudentRepository studentRepository = new StudentRepository();
+//    StudentRepository = new StudentRepository();
 
     public void addStudent(Student student){
         studentRepository.addStudent(student);
